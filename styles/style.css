@@ -10,6 +10,7 @@
 }
 
 .header {
+    display: flex;
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
@@ -21,6 +22,8 @@
 .header__square-pic {
     height: 568px;
     width: 568px;
+    background-image: url("../images/on_the_edge.png");
+    background-size: contain;
 }
 
 /* including elements with key-value modifiers */
@@ -35,5 +38,6 @@
     background-image: url("../images/logo.png");
     height: 31px;
     width: 154px;
-
+    background-size: contain;
+    background-repeat: no-repeat;
 }
