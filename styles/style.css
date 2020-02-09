@@ -24,6 +24,7 @@
     width: 568px;
     background-image: url("../images/on_the_edge.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* including elements with key-value modifiers */
@@ -37,7 +38,7 @@
 .logo {
     background-image: url("../images/logo.png");
     height: 31px;
-    width: 154px;
+    width: 156px;
     background-size: contain;
     background-repeat: no-repeat;
 }
