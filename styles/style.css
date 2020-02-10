@@ -17,11 +17,12 @@
     min-height: 600px;
     max-height: 756px;
     background-color: #F2F2F2;
+    flex-direction: column;
     /* parameters for the header section */
 }
 
 .header__title_block {
-    flex-direction: column;
+
     align-self: center;
     margin-left: 64px;
 }
@@ -57,7 +58,7 @@
 }
 
 .logo {
-    background-image: url("../images/logo.png");
+
     height: 31px;
     width: 154px;
     background-size: contain;
@@ -65,6 +66,7 @@
 }
 
 .logo__header_top {
+    background-image: url("../images/logo.png");
     position: absolute;
     top: 30px;
     left: 64px;
