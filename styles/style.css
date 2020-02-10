@@ -110,7 +110,7 @@
 
 .two-columns {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
