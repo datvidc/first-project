@@ -110,7 +110,7 @@
 
 .two-columns {
     display: flex;
-    flex-direction: row;
+
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
@@ -124,6 +124,11 @@
 }
 
 .two-columns__paragraph {
+    width: 80%;
+    min-width: 784px;
+}
+
+.two-columns__main-text {
     width: 80%;
     min-width: 784px;
 }
