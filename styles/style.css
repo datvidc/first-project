@@ -12,24 +12,31 @@
 
 /* Header section  */
 .header {
-    display: flex;
+
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
     background-color: #F2F2F2;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     /* parameters for the header section */
 }
 
 .header__title_block {
-
+    display: flex;
+    align-content: center;
+    justify-content: center;
     align-self: center;
     margin-left: 64px;
 }
 
 .header__title_text {}
 
-.header__subtitle_block {}
+.header__subtitle_block {
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
