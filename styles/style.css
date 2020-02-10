@@ -9,6 +9,21 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.logo {
+
+    height: 31px;
+    width: 154px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo__header_top {
+    background-image: url("../images/logo.png");
+    position: absolute;
+    top: 30px;
+    left: 64px;
+
+}
 
 /* Header section  */
 .header {
@@ -35,6 +50,8 @@
     font-size: 102px;
     font-weight: bold;
     line-height: 96px;
+    z-index: 1;
+
 
 }
 
@@ -42,6 +59,11 @@
     position: absolute;
     bottom: 30px;
     left: 64px;
+    z-index: 1;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    width: 388px;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -76,18 +98,6 @@
     margin-top: 80px;
 }
 
-.logo {
 
-    height: 31px;
-    width: 154px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
-.logo__header_top {
-    background-image: url("../images/logo.png");
-    position: absolute;
-    top: 30px;
-    left: 64px;
-
-}
+/* End of header block */
