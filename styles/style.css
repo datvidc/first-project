@@ -9,6 +9,8 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
+/* Header section  */
 .header {
     display: flex;
     height: 100vh;
@@ -17,6 +19,16 @@
     background-color: #F2F2F2;
     /* parameters for the header section */
 }
+
+.header__title_block {
+    flex-direction: column;
+    align-self: center;
+    margin-left: 64px;
+}
+
+.header__title_text {}
+
+.header__subtitle_block {}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
@@ -47,7 +59,14 @@
 .logo {
     background-image: url("../images/logo.png");
     height: 31px;
-    width: 156px;
+    width: 154px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.logo__header_top {
+    position: absolute;
+    top: 30px;
+    left: 64px;
+
 }
