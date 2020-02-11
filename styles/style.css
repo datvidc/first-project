@@ -200,4 +200,5 @@
   background-color: #f2f2f2;
   background-image: url("../images/feinman.png");
   height: 800px; /* just a temporary thing while I get things working */
+  background-repeat: no-repeat;
 }
