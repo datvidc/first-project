@@ -150,6 +150,7 @@
   width: 1100px;
 }
 .table_digits {
+  /* the other place table is used, margins are different */
   padding-top: 60px;
   padding-bottom: 100px;
   margin-top: 60px;
@@ -173,7 +174,9 @@
   width: 250px;
 }
 .table__heading {
-  /* the other place table is used, margins are different */
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
 }
 .table__text {
   margin-top: 20px;
