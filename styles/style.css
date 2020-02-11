@@ -157,6 +157,9 @@
   margin-bottom: 60px;
   width: 250px;
 }
+.table__heading {
+  font-size: 69px;
+}
 .table__text {
   margin-top: 20px;
   margin-bottom: 20px;
