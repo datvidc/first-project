@@ -235,3 +235,12 @@
   color: #000000;
 }
 /* end of feinman block:  */
+
+.kaufman {
+  background-color: #000000;
+  color: white;
+  padding-top: 90px;
+}
+
+.section-title__theme_dark {
+}
