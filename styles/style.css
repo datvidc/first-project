@@ -165,6 +165,7 @@
   width: 250px;
 }
 .table__heading {
+  /* the other place table is used, margins are different */
 }
 .table__text {
   margin-top: 20px;
