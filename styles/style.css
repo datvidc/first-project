@@ -287,3 +287,7 @@
   background-color: #000000;
   color: white;
 }
+
+.logo__footer_dark {
+  background-image: url("../images/logo_white.png");
+}
