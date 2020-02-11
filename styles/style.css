@@ -140,3 +140,9 @@
 .digits {
   margin-top: 100px;
 }
+
+/* table block CSS - used several places */
+.table {
+  display: flex;
+  margin: auto;
+}
