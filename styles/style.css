@@ -203,17 +203,14 @@
   background-repeat: no-repeat;
   background-size: 867px 637px; /* This may not be necesary */
   background-position: bottom left;
-  display: flex;
 }
 
 .feinman__title {
-  display: flex;
   width: 770px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   margin: auto;
-  position: relative;
 }
 
 .feinman__subtitle {
@@ -222,9 +219,10 @@
   font-size: 36px;
   font-weight: normal;
   margin-top: 70px;
+  text-align: center;
 }
 .feinman__link {
-  position: relative;
+  position: absolute;
   top: 395px;
   right: 46px;
 }
