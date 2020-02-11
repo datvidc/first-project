@@ -240,7 +240,30 @@
   background-color: #000000;
   color: white;
   padding-top: 90px;
+  overflow: hidden;
+  position: relative;
 }
 
 .section-title__theme_dark {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle__theme_dark {
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.kaufman__triangle {
+  background-image: url("../images/triangle.svg");
+  position: absolute;
+  right: -210px;
+  height: 877px;
+  width: 877px;
+  top: -30px;
 }
