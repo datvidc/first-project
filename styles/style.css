@@ -144,5 +144,8 @@
 /* table block CSS - used several places */
 .table {
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
+}
+.table_digits {
 }
