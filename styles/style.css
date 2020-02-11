@@ -193,3 +193,10 @@
   margin: auto;
   text-align: center;
 }
+
+/* feinman block */
+
+.feinman {
+  background-color: #f2f2f2;
+  width: 770px;
+}
