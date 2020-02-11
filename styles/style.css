@@ -205,3 +205,8 @@
   padding-top: 100px;
   display: flex;
 }
+
+.feinman__title {
+  line-height: 1.15;
+  font-size: 120px;
+}
