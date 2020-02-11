@@ -223,6 +223,6 @@
 }
 .feinman__link {
   position: absolute;
-  top: 395px;
-  right: 46px;
+  top: 50%;
+  right: 48px;
 }
