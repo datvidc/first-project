@@ -197,16 +197,34 @@
 /* feinman block */
 
 .feinman {
+  height: 790px;
   background-color: #f2f2f2;
   background-image: url("../images/feinman.png");
   background-repeat: no-repeat;
   background-size: 867px 637px; /* This may not be necesary */
   background-position: bottom left;
-  padding-top: 100px;
   display: flex;
 }
 
 .feinman__title {
+  display: flex;
+  width: 770px;
   line-height: 1.15;
   font-size: 120px;
+  font-weight: bold;
+  margin: auto;
+  position: relative;
+}
+
+.feinman__subtitle {
+  display: flex;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 70px;
+}
+.feinman__link {
+  position: relative;
+  top: 395px;
+  right: 46px;
 }
