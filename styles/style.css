@@ -203,6 +203,8 @@
   background-repeat: no-repeat;
   background-size: 867px 637px; /* This may not be necesary */
   background-position: bottom left;
+  position: relative;
+  padding-top: 100px;
 }
 
 .feinman__title {
