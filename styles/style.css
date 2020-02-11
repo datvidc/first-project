@@ -282,12 +282,60 @@
 /* end of kaufman section */
 
 .footer {
-  margin-top: 60px;
-  margin-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   background-color: #000000;
   color: white;
+  min-height: 350px;
 }
 
 .logo__footer_dark {
   background-image: url("../images/logo_white.png");
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.footer__columns_content_copyright {
+  flex-basis: 711px;
+  position: relative;
+}
+.footer__author {
+  /* width: 18px; my lastname is too long for this. */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  color: grey;
+}
+.footer__column-heading {
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer__columns_content_social {
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: grey;
+}
+
+.footer__columns_content_media {
+}
+
+.footer__social-icon {
+  text-decoration: none;
+  color: grey;
 }
