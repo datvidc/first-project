@@ -152,3 +152,12 @@
   padding-top: 60px;
   padding-bottom: 100px;
 }
+
+.table__cell {
+  margin-bottom: 60px;
+  width: 250px;
+}
+.table__text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
