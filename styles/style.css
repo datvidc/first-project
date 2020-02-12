@@ -135,6 +135,7 @@
 .two-columns--margin-bottom {
   margin-bottom: 30px;
 }
+
 /*  end two columns */
 
 .digits {
@@ -149,12 +150,14 @@
   justify-content: space-between;
   width: 1100px;
 }
+
 .table_digits {
   /* the other place table is used, margins are different */
   padding-top: 60px;
   padding-bottom: 100px;
   margin-top: 60px;
 }
+
 .section-title {
   line-height: 69px;
   font-size: 60px;
@@ -162,6 +165,7 @@
   font-weight: bold;
   width: 60%;
 }
+
 .section-subtitle {
   font-weight: normal;
   font-size: 24px;
@@ -173,6 +177,7 @@
   margin-bottom: 60px;
   width: 250px;
 }
+
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
@@ -201,7 +206,8 @@
   background-color: #f2f2f2;
   background-image: url("../images/feinman.png");
   background-repeat: no-repeat;
-  background-size: 867px 637px; /* This may not be necesary */
+  background-size: 867px 637px;
+  /* This may not be necesary */
   background-position: bottom left;
   position: relative;
   padding-top: 100px;
@@ -224,6 +230,7 @@
   text-align: center;
   margin: 70px 0 0;
 }
+
 .feinman__link {
   position: absolute;
   top: 50%;
@@ -234,6 +241,7 @@
   font-weight: normal;
   color: #000000;
 }
+
 /* end of feinman block:  */
 
 .kaufman {
@@ -259,10 +267,12 @@
   font-weight: normal;
   margin-top: 20px;
 }
+
 .table__theme_dark {
   z-index: 1;
   padding-bottom: 90px;
 }
+
 .table__cell_theme_dark {
   z-index: 1;
   width: 200px;
@@ -277,6 +287,7 @@
   width: 877px;
   bottom: 90px;
   padding: 0;
+  overflow: hidden;
 }
 
 /* end of kaufman section */
@@ -292,16 +303,19 @@
 .logo__footer_dark {
   background-image: url("../images/logo_white.png");
 }
+
 .footer__columns {
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin: auto;
 }
+
 .footer__columns_content_copyright {
   flex-basis: 711px;
   position: relative;
 }
+
 .footer__author {
   /* width: 18px; my lastname is too long for this. */
   position: absolute;
@@ -312,11 +326,13 @@
   line-height: 25px;
   color: grey;
 }
+
 .footer__column-heading {
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
 }
+
 .footer__columns_content_social {
   line-height: 45px;
   font-size: 18px;
