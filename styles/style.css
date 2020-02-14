@@ -313,7 +313,7 @@
   margin: auto;
 }
 
-.footer__columns_content_copyright {
+.footer__columns--content-copyright {
   flex-basis: 711px;
   position: relative;
 }
