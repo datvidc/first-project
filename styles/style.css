@@ -197,7 +197,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 1.2;
-  font-weight: 18px;
+  font-size: 18px;
   font-weight: normal;
 }
 
@@ -209,7 +209,6 @@
   background-image: url("../images/feinman.png");
   background-repeat: no-repeat;
   background-size: 867px 637px;
-  /* This may not be necesary */
   background-position: bottom left;
   position: relative;
   padding-top: 100px;
@@ -297,7 +296,7 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 40px;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: white;
   min-height: 350px;
 }
@@ -326,7 +325,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-  color: grey;
+  color: #4f4f4f;
 }
 
 .footer__column-heading {
@@ -350,10 +349,10 @@
   line-height: 30px;
   font-size: 18px;
   text-decoration: none;
-  color: grey;
+  color: #4f4f4f;
 }
 
 .footer__social-icon {
   text-decoration: none;
-  color: grey;
+  color: #4f4f4f;
 }
