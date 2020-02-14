@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
 }
 
-.logo__header_top {
+.logo_place_header {
   background-image: url("../images/logo.png");
   position: absolute;
   top: 30px;
@@ -286,7 +286,6 @@
   height: 877px;
   width: 877px;
   bottom: 90px;
-  padding: 0;
   overflow: hidden;
 }
 
