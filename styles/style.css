@@ -31,6 +31,7 @@
   background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
+  position: relative;
   /* parameters for the header section */
 }
 
@@ -121,7 +122,6 @@
 }
 
 .two-columns__paragraph {
-  width: 80%;
   min-width: 784px;
   font-size: 24px;
   line-height: 34px;
