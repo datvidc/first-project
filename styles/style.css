@@ -338,7 +338,7 @@
   list-style-type: none;
 }
 
-.footer__columns_content_social {
+.footer__columns--content-social {
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
