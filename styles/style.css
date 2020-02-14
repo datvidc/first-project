@@ -63,10 +63,11 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
+.header__main-illustration {
   height: 608px;
   width: 765px;
   background-image: url("../images/on_the_edge.png");
@@ -78,7 +79,7 @@
   right: 0;
 }
 
-.header__square-pic_blue-square {
+.header__square-pic {
   position: absolute;
   top: 64px;
   right: 0;
