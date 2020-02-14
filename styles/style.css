@@ -34,7 +34,7 @@
   /* parameters for the header section */
 }
 
-.header__title_block {
+.header__title {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -50,7 +50,7 @@
   z-index: 1;
 }
 
-.header__subtitle_block {
+.header__subtitle {
   position: absolute;
   bottom: 30px;
   left: 64px;
